@@ -1,0 +1,43 @@
+/*
+ Theme Name: GuitarGuru
+ Theme URL: http://localhost:8888/wp-content/themes/guitar_guru_theme/
+ Description: GuitarGuru
+ Author: Alexandr Nilov
+ Author URL: http:
+ Template: twentytwenty
+ Version: 1.0
+ Text Domain: twentytwenty-child*/
+main>.container {
+  padding: 60px 15px 0;
+}
+.container-fluid{
+  --bs-gutter-x: 0;
+}
+.bg-dark{
+  --bs-dark-rgb: 38, 145, 72;
+}
+.bg-light{
+  --bs-light-rgb: 235, 231, 199;
+}
+.navbar-brand{
+  --bs-navbar-brand-color: #ffffff;
+  text-transform: uppercase;
+}
+.navbar-toggler-icon{
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+.navbar-toggler {
+  --bs-navbar-color: rgba(255, 255, 255, 1);
+}
+.text-bg-dark {
+    color: #fff !important;
+    background-color: RGBA(45, 53, 85,var(--bs-bg-opacity,1)) !important;
+}
+.btn-primary {
+  --bs-btn-bg: #269148;
+  --bs-btn-border-color: #269148;
+  --bs-btn-hover-bg: #136f30;
+  --bs-btn-hover-border-color: #136f30;
+  --bs-btn-active-bg: #136f30;
+  --bs-btn-active-border-color: #136f30;
+}
